@@ -23,7 +23,7 @@ class App extends StatelessWidget {
         Onboarding3.routName: (context) => const Onboarding3(),
         LoginScreen.routName: (context) => const LoginScreen(),
         RegisterScreen.routName: (context) => const RegisterScreen(),
-        HomeScreen.routeName: (context) => const HomeScreen(),
+        HomeScreen.routeName: (context) => HomeScreen(),
       },
     );
   }
